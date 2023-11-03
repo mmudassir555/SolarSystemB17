@@ -1,5 +1,7 @@
 package SolarSystem;
 
+import java.awt.*;
+
 public class main {
     public static void main(String[] args) {
         solarSystemBasics solarsys= new solarSystemBasics();
@@ -9,5 +11,11 @@ public class main {
         solarsys.Star="15";
 
 
+        // feature Sun
+
+        featureSon sun = new featureSon();
+        sun.name = "Panther";
+        sun.temp = "3433";
+        sun.color = "Black";
     }
 }
