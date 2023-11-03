@@ -17,5 +17,16 @@ public class main {
         sun.name = "Panther";
         sun.temp = "3433";
         sun.color = "Black";
+
+
+
+        // planet1
+        planet1 ploto = new planet1();
+        ploto.name = "Green";
+        ploto.temp= "Cool";
+        ploto.color= "kuch b";
+        ploto.radius = "334234234";
+
     }
+
 }
